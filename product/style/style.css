@@ -233,7 +233,7 @@ select[name="option"]{
     border-top-left-radius: 20px;
    border-bottom: 2px solid #d5d2d2;
 }
-.model__title i,h3{
+.model__title i,h1{
     font-size: 25px;
 }
 .model__title i:hover{
