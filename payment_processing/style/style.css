@@ -1,0 +1,245 @@
+.logo{
+    height: 84px;
+    width: 182px;
+}
+
+.nav{
+    z-index: 1000;
+    position: fixed;
+    top: 30px;
+    left: 50px;
+    right: 50px;
+    display: inline-block;
+    height: 0;
+    width: 0;
+}
+.top__menu{
+    display: flex;
+    justify-content: space-between;
+    width: 92vw;
+   
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+}
+.nav__list a:hover{
+    text-decoration: underline;
+}
+.nav__item{
+
+}
+.nav__icon{
+    margin: 0 10px;
+}
+.nav__item+.nav__item{
+    margin-left: 40px;
+}
+.nav__link{
+    text-decoration: none;
+}
+.slide__list{
+    margin-top: 20px;
+}
+.slide__menu{
+    display: inline-block;
+    
+}
+.slide__menu ul{
+    
+    width: 20vw;
+    max-height: 70vh;
+    overflow: auto;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+.slide__menu ul::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+}
+.sub__menu{
+    opacity: 0.6;
+}
+.slide__menu li{
+    margin: 5px 0;
+}
+.slide__menu ul+li{
+    margin-top: 25px;
+   
+}
+.slide__menu a:hover{
+    cursor:pointer;
+    color: #23527c;
+    text-decoration: underline;
+}
+#container{
+    width: 55vw;
+    margin: 15.5vh 10vw 20px 25vw;
+}
+.pay__box1{
+    width: 50%;
+}
+.pay__box1 input{
+    width: 20px;
+    height: 20px;
+}
+.pay__box1 input[type="text"]{
+    height: 50px;
+    width: 100%;
+    border: 2px solid #000;
+    font-size: 20px;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+.form__processing{
+
+}
+.form__title{
+    display: flex;
+    justify-content: space-between;
+}
+.fullname{
+
+}
+.form__contact{
+    display: flex;
+}
+.form__contact input[class="contact__email"]{
+    width: 60%;
+}
+.form__contact input[class="contact__phonenumble"]{
+    width: 38%;
+    margin-left: 2%;
+}
+.contact__email{
+
+}
+.contact__phonenumble{
+
+}
+.form__checked{
+    display: flex;
+    margin: 10px 0;
+}
+.form__checked h3{
+    margin-left: 10px;
+}
+.form__Address{
+
+}
+.form__select{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 145px;
+}
+.select__box{
+    border: 2px solid #000;
+    height: 58px;
+    width: 48%;
+    padding: 0 10px;
+    /* margin-bottom: 20px; */
+}
+.select__box select{
+   width: 100%;
+}
+.select__box label{
+    opacity: 0.8;
+}
+.select__box .select__box{
+    margin-left: 2%;
+ }
+#province{
+
+}
+#District{
+
+}
+#wards{
+
+}
+.form__checked{
+
+}
+input[class="form__notes"]{
+    height: 150px !important;
+}
+.payment__methods__box{
+    display: flex;
+    flex-direction: column;
+}
+#payment__methods__momo{
+
+}
+#payment__methods__COD{
+    
+}
+.pay__box2{
+
+}
+#footer{
+    position: relative;
+    z-index: 2000;
+    left: 0;
+    right: 0;
+    /* width: 94.5%; */
+    background-color: #fff;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.footer__list{
+    width: 30%;
+    list-style: none;
+}
+.footer__item+.footer__item{
+    margin-top: 10px;
+}
+.footer__logo{
+    text-align: center;
+}
+.footer__logo_text{
+    margin-bottom: 15px;
+}
+.footer__contact{
+
+}
+.contact__list{
+    list-style: none;
+    display: flex;
+}
+.contact__item+.contact__item{
+    margin-left: 40px;
+}
+.contact__link{
+    text-decoration: none;
+}
+.contact__link:hover{
+    color: #23527c;
+}
+.footer__phone:hover{
+    cursor:pointer;
+    color: #23527c;
+}
+.shortcuts{
+    position: fixed;
+    bottom: 27vh;
+    right: 2vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.shortcuts__homepage{
+    font-size: 30px;
+    color: aliceblue;
+    margin: 10px 15px;
+}
+.shortcuts__box{
+   width: 50px;
+   height: 50px;
+    background-color: black;
+    /* padding:15px; */
+}
